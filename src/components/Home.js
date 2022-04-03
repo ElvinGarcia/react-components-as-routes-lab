@@ -4,6 +4,7 @@ const Home = () => {
   return (
     <div>
       <h1>home</h1>
+      <p>A List of Moives, Directors and their movies</p>
     </div>
   );
 };
