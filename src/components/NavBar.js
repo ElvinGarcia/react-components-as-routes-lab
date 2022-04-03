@@ -13,33 +13,33 @@ const link = {
 
 const NavBar = () => {
   return (
-  <div>
+  <div className='navbar'>
 
       <NavLink
         exact to="/"style={link}  activeStyle={{
             background: "darkblue",
-          }}>
+          }} >
         Home
-      </NavLink>
+        </NavLink>
 
       <NavLink
         exact to="/actors"style={link}  activeStyle={{
             background: "darkblue",
-          }}>
+          }} >
         Actors
     </NavLink>
 
     <NavLink
         exact to="/movies"style={link}  activeStyle={{
             background: "darkblue",
-          }}>
+          }} >
         Movies
     </NavLink>
 
     <NavLink
         exact to="/directors"style={link}  activeStyle={{
             background: "darkblue",
-          }}>
+          }} >
         Directors
     </NavLink>
 
