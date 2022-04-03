@@ -15,13 +15,15 @@ const App = (props) => {
     <Router>
       <div>
       <NavBar/>
-      <Route exact to="/" component={Home}/>
-      <Route to="/movies" component={Movies} />
-      <Route to="/directors" component={Directors}/>
-      <Route to="/actors" component={Actors}/>
+      <Route exact path="/" component={Home}/>
+      <Route exact path="/movies" component={Movies} />
+      <Route exact path="/directors" component={Directors}/>
+      <Route exact path="/actors" component={Actors}/>
       </div>
     </Router>
   );
 };
+
+
 
 export default App
